@@ -15,30 +15,22 @@
         android:layout_height="wrap_content"
         android:text="FLIP COIN"
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textSize="34sp" />
 
     <TextView
         android:id="@+id/txtResultado"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="410dp"
         android:paddingTop="60dp"
         android:text="Moeda"
         android:textAlignment="center"
-        android:textSize="20sp" />
-
-    <EditText
-        android:id="@+id/caraCoroa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:paddingTop="300dp"
-        android:text="Cara ou Coroa?" />
+        android:textSize="24sp" />
 
     <Button
-        android:id="@+id/btnStart"
+        android:id="@+id/btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="caraCoroa"
         android:text="Start" />
 
 </LinearLayout>
